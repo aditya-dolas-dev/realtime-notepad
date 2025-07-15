@@ -27,7 +27,7 @@ const NotePage = () => {
 
   useEffect(() => {
     // Initialize socket connection
-    const newSocket = io("https://real-time-notepad-7a5c.onrender.com");
+    const newSocket = io("http://localhost:3000");
     setSocket(newSocket);
 
     // Connection event handlers
