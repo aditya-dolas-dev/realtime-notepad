@@ -1,0 +1,13 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "REAL-TIME-NOTEPAD\r A real-time collaborative notepad application built with Node.js, Express, and Socket.io. This project allows multiple users to edit the same notepad simultaneously, with changes reflected in real-time across all connected clients.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix backend"
+  },
+  "keywords":[],
+  "author": "",
+  "license": "ISC",
+}
