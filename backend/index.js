@@ -13,7 +13,8 @@ require('dotenv').config();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "https://realtime-notepad-lac.vercel.app",
+    origin: [ "https://real-time-notepad-7a5c.onrender.com", 
+      "https://your-frontend.vercel.app"],
     methods: ["GET", "POST"]
   }
 });
