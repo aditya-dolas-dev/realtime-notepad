@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export default axios.create({
-  baseURL: "http://localhost:3000", // your backend
+  baseURL: "https://realtime-notepad-k45e.onrender.com", // your backend
 });
