@@ -21,7 +21,7 @@ Installation
 Clone the repository:
 
 bash
-git clone https://github.com/aditya-dolas-dev/REAL-TIME-NOTEPAD.git
+git clone https://github.com/aditya-dolas-dev/realtime-notepad.git
 cd REAL-TIME-NOTEPAD
 Install dependencies:
 
